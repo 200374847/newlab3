@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .container
+    h1= name
+    ul
+      li I stay in #{city}
+      li I am a #{profession}
+      li My birthday is in #{month}
+      li My hobby is #{somehobby}
+      li I enjoy #{likes}
+      li I dislike #{dislikes}
+      if relation
+        li I am Nikunj's #{relation}
